@@ -46,7 +46,7 @@ jobs:
           
       - name: Build Openwrt
         run: |
-          cd /home/runner/work/open-test/open-test/Openwrt-Lean
+          cd /home/runner/work/open-test/open-test/Openwrt-Lean/lede
           make -j1 V=s 
           
       - name: Zip Files
