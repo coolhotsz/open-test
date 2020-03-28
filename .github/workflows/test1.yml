@@ -40,7 +40,7 @@ jobs:
           cd lede
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-          wget https://github.com/coolhotsz/open-test/blob/master/r1s-h3-config
+          wget https://github.com/coolhotsz/open-test/master/r1s-h3-config
           cp r1s-h3-config .config
           
       - name: Build Openwrt
